@@ -1,1 +1,0 @@
-# 10 - Connecting our Node Express App to MongoDB

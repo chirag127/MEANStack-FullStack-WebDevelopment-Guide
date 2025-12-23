@@ -1,1 +1,0 @@
-# 02 - Adding the Pagination Component

@@ -1,0 +1,10 @@
+# .github/badges.yml
+- name: 'Built with'
+  color: 'blue'
+  message: 'Vite, TypeScript, Tailwind CSS'
+- name: 'Architecture'
+  color: 'blue'
+  message: 'Frontend-Only'
+- name: 'License'
+  color: 'blue'
+  message: 'CC BY-NC 4.0'
