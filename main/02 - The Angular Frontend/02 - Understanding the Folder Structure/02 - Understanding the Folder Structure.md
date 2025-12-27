@@ -1,1 +1,0 @@
-# 02 - Understanding the Folder Structure

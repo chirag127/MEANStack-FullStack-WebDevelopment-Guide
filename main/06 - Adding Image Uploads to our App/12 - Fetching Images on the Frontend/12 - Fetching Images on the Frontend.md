@@ -1,1 +1,0 @@
-# 12 - Fetching Images on the Frontend

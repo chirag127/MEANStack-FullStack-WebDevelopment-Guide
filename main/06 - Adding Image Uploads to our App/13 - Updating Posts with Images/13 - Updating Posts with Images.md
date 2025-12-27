@@ -1,1 +1,0 @@
-# 13 - Updating Posts with Images

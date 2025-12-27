@@ -1,1 +1,0 @@
-# 12 - Creating Posts with Property & Event Binding

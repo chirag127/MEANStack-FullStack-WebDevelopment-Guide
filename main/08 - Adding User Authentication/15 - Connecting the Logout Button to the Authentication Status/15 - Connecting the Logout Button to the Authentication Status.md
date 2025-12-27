@@ -1,1 +1,0 @@
-# 15 - Connecting the Logout Button to the Authentication Status

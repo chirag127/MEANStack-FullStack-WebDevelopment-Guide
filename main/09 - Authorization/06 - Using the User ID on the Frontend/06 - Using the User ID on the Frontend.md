@@ -1,1 +1,0 @@
-# 06 - Using the User ID on the Frontend
