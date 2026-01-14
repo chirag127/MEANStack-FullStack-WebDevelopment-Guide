@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MEANStack Frontend Guide | Chirag Singhal</title>
+  <meta name="description" content="A modern frontend-only transformation of the MEAN Stack Guide — built with Angular and AI-native principles.">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backdropBlur: {
+            xs: '2px',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#6D28D9',
+            secondary: '#1E293B',
+            accent: '#8B5CF6',
+            glass: 'rgba(255, 255, 255, 0.08)',
+          },
+          boxShadow: {
+            glass: '0 8px 32px rgba(31, 38, 135, 0.1)',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    .card-glass {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="px-6 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-primary">MEANStack Guide</div>
+    <div class="space-x-6 hidden md:flex text-sm font-medium">
+      <a href="#home" class="text-secondary hover:text-accent transition">Home</a>
+      <a href="#features" class="text-secondary hover:text-accent transition">Features</a>
+      <a href="#about" class="text-secondary hover:text-accent transition">About</a>
+      <a href="contact.html" class="text-secondary hover:text-accent transition">Contact</a>
+      <a href="about.html" class="text-secondary hover:text-accent transition">Resume</a>
+    </div>
+    <button class="md:hidden text-secondary text-xl">☰</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="px-6 py-20 md:py-32 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-500 mb-6">
+        The Future of Full-Stack is Frontend-Only
+      </h1>
+      <p class="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+        A modern transformation of the MEAN Stack Guide into a high-velocity, AI-native frontend application — 
+        running entirely in the browser with zero backend.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://github.com/chirag127/Angular-NodeJS---The-MEAN-Stack-Guide" target="_blank" class="px-8 py-3 bg-primary text-white rounded-lg shadow-lg hover:bg-accent transition text-center font-medium">
+          View on GitHub
+        </a>
+        <a href="#features" class="px-8 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition font-medium">
+          Explore Features
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="px-6 py-20 bg-white bg-opacity-20">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-secondary">Key Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="card-glass p-8 text-center">
+          <div class="w-16 h-16 mx-auto mb-6 bg-accent rounded-full flex items-center justify-center text-white text-2xl">⚡</div>
+          <h3 class="text-xl font-semibold mb-3">Frontend-Only Architecture</h3>
+          <p class="text-gray-700">No backend, no databases — everything runs directly in the browser using Angular, localStorage, and client-side AI logic.</p>
+        </div>
+        <div class="card-glass p-8 text-center">
+          <div class="w-16 h-16 mx-auto mb-6 bg-accent rounded-full flex items-center justify-center text-white text-2xl">🧠</div>
+          <h3 class="text-xl font-semibold mb-3">AI-Native Design</h3>
+          <p class="text-gray-700">Built with AI-assisted patterns and future-ready workflows. Leverages modern tooling for intelligent user experiences.</p>
+        </div>
+        <div class="card-glass p-8 text-center">
+          <div class="w-16 h-16 mx-auto mb-6 bg-accent rounded-full flex items-center justify-center text-white text-2xl">🚀</div>
+          <h3 class="text-xl font-semibold mb-3">High-Velocity Development</h3>
+          <p class="text-gray-700">Optimized for rapid iteration and scalable UI patterns. Inspired by the Singularity Architect philosophy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="px-6 py-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-secondary">About This Project</h2>
+      <p class="text-lg text-gray-700 leading-relaxed mb-6">
+        Originally a guide for the MEAN (MongoDB, Express, Angular, Node.js) stack, this project has been reimagined as a <strong>frontend-only showcase</strong> to demonstrate the power of modern client-side frameworks and AI-driven development.
+      </p>
+      <p class="text-lg text-gray-700 leading-relaxed mb-8">
+        Built with Angular and enhanced with Tailwind CSS, it follows the <strong>Singularity Architect</strong> principles: minimal dependencies, maximal velocity, and AI-first design patterns.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="about.html" class="px-6 py-3 bg-secondary text-white rounded-lg hover:bg-gray-800 transition font-medium">View My Resume</a>
+        <a href="contact.html" class="px-6 py-3 border-2 border-secondary text-secondary rounded-lg hover:bg-gray-100 transition font-medium">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-6 py-8 text-center text-gray-600 text-sm border-t border-gray-200 bg-white bg-opacity-10">
+    <p>Copyright (c) 2026 Chirag Singhal | Designed by Chirag Singhal</p>
+    <div class="mt-4 flex justify-center space-x-6">
+      <a href="https://github.com/chirag127" target="_blank" class="text-gray-600 hover:text-primary transition">GitHub</a>
+      <a href="https://linkedin.com/in/chirag-singhal1" target="_blank" class="text-gray-600 hover:text-primary transition">LinkedIn</a>
+      <a href="https://buymeacoffee.com/WhyIsWhen" target="_blank" class="text-gray-600 hover:text-primary transition">Buy Me a Coffee</a>
+      <a href="mailto:chiragsinghal127@gmail.com" class="text-gray-600 hover:text-primary transition">Email</a>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
